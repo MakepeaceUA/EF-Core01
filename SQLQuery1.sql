@@ -1,0 +1,8 @@
+CREATE TABLE Teams (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    TeamName NVARCHAR(100) NOT NULL,
+    City NVARCHAR(100) NOT NULL,
+    Wins INT NOT NULL,
+    Losses INT NOT NULL,
+    Draws INT NOT NULL,
+);
